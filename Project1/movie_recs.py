@@ -89,7 +89,7 @@ def generate_embedding(text: str) -> list[float]:
 # "detective solving mysteries"
 # "family comedy"
 
-query = ""
+query = "family comedy"
 
 print(f"\nSearching for: {query}")
 query_embedding = generate_embedding(query)
